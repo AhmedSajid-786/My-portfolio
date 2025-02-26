@@ -12,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="shortcut icon" href="Favicon.png" type="image/x-icon" />
   </head>
   <body>
     <div class="sidebar" id="sideBar">
@@ -19,7 +20,7 @@
         <i
           class="fa-regular fa-circle-xmark"
           id="cross"
-          style="color: white; font-size: 30px"
+          style="color: white; font-size: 30px; cursor: pointer"
         ></i>
       </div>
       <ul class="ulSide">
@@ -38,7 +39,7 @@
             <i
               class="fa-solid fa-bars"
               id="bars"
-              style="color: white; font-size: 30px"
+              style="color: white; font-size: 30px; cursor: pointer"
             ></i>
           </div>
         </div>
@@ -65,11 +66,15 @@
             </p>
             <div class="buttons">
               <button class="hireMe"><a href="#contact">Hire me</a></button>
-              <a href="Ahmed Sajid (new).pdf" download="Ahmed Sajid (new).pdf"><button class="letTalk">Download CV</button></a>
+              <a href="Ahmed Sajid (new).pdf" download="Ahmed Sajid (new).pdf"
+                ><button class="letTalk">Download CV</button></a
+              >
             </div>
 
             <div class="main1_images">
-              <a href="https://www.linkedin.com/in/ahmed-sajid-8b2206318/" target="_blank"
+              <a
+                href="https://www.linkedin.com/in/ahmed-sajid-8b2206318/"
+                target="_blank"
                 ><img
                   src="linkedIn.png"
                   alt="linkedIn"
@@ -77,11 +82,7 @@
                   width="40px"
               /></a>
               <a href="https://github.com/AhmedSajid-786" target="_blank"
-                ><img
-                  src="github.png"
-                  alt="Github"
-                  class="icons"
-                  width="40px"
+                ><img src="github.png" alt="Github" class="icons" width="40px"
               /></a>
               <a href="https://x.com/ahmed_saji7943" target="_blank"
                 ><img
@@ -206,9 +207,8 @@
       <h1>Projects</h1>
     </div>
 
-    <div class="projects" >
+    <div class="projects">
       <div class="maincards_back">
-
         <div class="maincards">
           <div class="cards" id="card1">
             <div class="img">
@@ -233,11 +233,7 @@
 
           <div class="cards" id="card2">
             <div class="img">
-              <img
-                src="portfolio.png"
-                alt="Portfolio image"
-                class="images"
-              />
+              <img src="portfolio.png" alt="Portfolio image" class="images" />
             </div>
 
             <div class="p">
@@ -288,11 +284,7 @@
         <div class="maincards">
           <div class="cards" id="card1">
             <div class="img">
-              <img
-                src="login.png"
-                alt="Login page image"
-                class="images"
-              />
+              <img src="login.png" alt="Login page image" class="images" />
             </div>
 
             <div class="p">
@@ -361,11 +353,7 @@
         <div class="maincards">
           <div class="cards" id="card1">
             <div class="img">
-              <img
-                src="salesforce.png"
-                alt="Salesforce Clone"
-                class="images"
-              />
+              <img src="salesforce.png" alt="Salesforce Clone" class="images" />
             </div>
 
             <div class="p">
@@ -387,11 +375,7 @@
 
           <div class="cards" id="card2">
             <div class="img">
-              <img
-                src="spotify.png"
-                alt="Spotify Clone"
-                class="images"
-              />
+              <img src="spotify.png" alt="Spotify Clone" class="images" />
             </div>
 
             <div class="p">
@@ -413,11 +397,7 @@
 
           <div class="cards" id="card3">
             <div class="img">
-              <img
-                src="ultraedit.png"
-                alt="UltraEdit Clone"
-                class="images"
-              />
+              <img src="ultraedit.png" alt="UltraEdit Clone" class="images" />
             </div>
 
             <div class="p">
@@ -438,16 +418,10 @@
           </div>
         </div>
 
-
-
         <div class="maincards">
           <div class="cards" id="card1">
             <div class="img">
-              <img
-                src="rock_paper.png"
-                alt="Salesforce Clone"
-                class="images"
-              />
+              <img src="rock_paper.png" alt="Salesforce Clone" class="images" />
             </div>
 
             <div class="p">
@@ -466,12 +440,7 @@
               >
             </div>
           </div>
-
         </div>
-
-
-
-
 
         <div class="reactproj">
           <h1>React Projects</h1>
@@ -642,17 +611,26 @@
         </div>
       </div>
 
-
-      <form class="placeholders" action="https://api.web3forms.com/submit" method="POST">
-
-        <input type="hidden" name="access_key" value="2fa5de64-53df-4c9e-90a3-5ed410c06dd2">
+      <form
+        class="placeholders"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="2fa5de64-53df-4c9e-90a3-5ed410c06dd2"
+        />
         <p>Hire me for your next web development project</p>
-        <input type="text" name="name" placeholder="Full name" required>
-        <input type="email" name="email" placeholder="Email address" required>
-        <textarea name="message" placeholder="Reasons for reaching out..." required></textarea>
+        <input type="text" name="name" placeholder="Full name" required />
+        <input type="email" name="email" placeholder="Email address" required />
+        <textarea
+          name="message"
+          placeholder="Reasons for reaching out..."
+          required
+        ></textarea>
         <button class="send" id="sendButton" type="submit">Send Message</button>
-    
-    </form>
+      </form>
     </div>
 
     <div class="copyright">
@@ -663,5 +641,3 @@
     <script src="script.js"></script>
   </body>
 </html>
-
-
